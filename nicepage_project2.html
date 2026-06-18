@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        .line1 {
+            width: 100%;
+            height: 80px;
+            background-color: #3158F8;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: white;
+
+        }
+
+        .line2 {
+            width: 100%;
+            height: 80px;
+            background-color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #3158F8;
+        }
+
+        .text {
+            font-size: 30px;
+            margin-left: 50px;
+            padding: 20px 5px;
+        }
+
+        .textt {
+            font-size: 35px;
+            margin-left: 50px;
+            padding: 5px 5px;
+            display: inline-block;
+        }
+
+        .image {
+            width: 100%;
+            height: 100vh;
+            background-image: url(./img.jpg);
+            background-size: 100% 100%;
+
+        }
+        
+        .btn {
+            width: 130px;
+            height: 40px;
+            font-size: 25px;
+            background-color: white;
+            border: none;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: bold;
+
+        }
+
+        .page1 {
+            width: 100%;
+            height: 650px;
+            background-color: white;
+        }
+
+        .head {
+            font-size: 50px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 600;
+        }
+
+        .innerbox1 {
+            width: 45%;
+            height: 520px;
+            background-color: white;
+            margin: 40px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            float: left;
+        }
+
+        .box1,
+        .box2,
+        .box3,
+        .box4 {
+            width: 45%;
+            height: 200px;
+            background-color: white;
+            float: left;
+            margin: 13px;
+
+        }
+
+        
+
+        .textimage {
+            color: white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 35px;
+
+        }
+
+        .ref {
+            color: whitesmoke;
+        }
+
+        .innerbox2 {
+            width: 40%;
+            height: 520px;
+            background-color: white;
+            margin-left: 100px;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            float: left;
+            font-size: 20px;
+
+        }
+
+        .tick {
+            color: #3158F8;
+            display: inline-block;
+        }
+
+        .btn1 {
+            background-color: #3158F8;
+            color: white;
+            width: 250px;
+            height: 70px;
+            border-radius: 30px;
+            font-size: 20px;
+            border: none;
+        }
+
+        .page2 {
+            width: 100%;
+            height: 200vh;
+            background-color: white;
+            float: left;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 30px;
+            border-radius: 20px;
+            color: black;
+
+        }
+
+        .sample {
+            font-size: 15px;
+        }
+
+        .imagebox {
+            float: left;
+            margin: 30px;
+
+        }
+
+        .refr {
+            color: black;
+        }
+
+        .page3 {
+            background-color: #292B33;
+            width: 100%;
+            height: 210vh;
+            float: left;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 20px;
+            color: white;
+        }
+
+        .pageee3 {
+            width: 100%;
+            height: 250px;
+            background-color: white;
+            border-bottom-left-radius: 40px;
+            border-bottom-right-radius: 40px;
+
+        }
+
+        .boxx1 {
+            background-color: white;
+            width: 42%;
+            height: 700px;
+            margin-left: 75px;
+            color: #292B33;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 22px;
+            border-radius: 40px;
+            float: left;
+        }
+
+        .img {
+            border-radius: 30px;
+        }
+
+        .boxx2 {
+            background-color: white;
+            width: 42%;
+            height: 700px;
+            margin-left: 50px;
+            color: #292B33;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 22px;
+            border-radius: 40px;
+            float: left;
+        }
+
+        .namebox {
+            width: 220px;
+            height: 20px;
+            padding: 10px;
+            font-size: 20px;
+            border: none;
+        }
+
+        .namebox1 {
+            width: 465px;
+            height: 20px;
+            padding: 10px;
+            font-size: 20px;
+            border: none;
+            margin-left: 25px;
+        }
+
+        .button {
+            width: 400px;
+            height: 60px;
+            background-color: #3158F8;
+            color: white;
+            font-size: 20px;
+            border-radius: 30px;
+            border: none;
+        }
+
+        .boxxx1,
+        .boxxx2,
+        .boxxx3 {
+            width: 28%;
+            height: 450px;
+            background-color: #292B33;
+            float: left;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;
+            margin: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="line1">
+        <h1 class="text">We are Professional Roofing Company. Need Help?</h1>
+    </div>
+    <div class="line2">
+        <h1 class="textt">⋏⋏ ROOFING</h1>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./nicepage_home.html"> <button class="btn"><u>Home</u></button></a>
+        <a href=""> <button class="btn"><u>About</u></button></a>
+        <a href=""> <button class="btn"><u>Pages</u></button></a>
+        <a href=""> <button class="btn"><u>Contact Us</u></button></a>
+
+        <h1 class="textt"> &nbsp;&nbsp;&nbsp;&nbsp; Call : +1 (234) 567 8910</h1>
+
+    </div><br><br>
+    <div class="image"><br><br><br><br><br><br><br>
+        <center>
+            <div class="textimage">
+                <h1>Gallery</h1>
+                <p> Portfolio of past projects and completed jobs </p>
+                <p> Image by <a href="" class="ref"><b>Freepik</b></a></p>
+
+            </div>
+        </center>
+    </div>
+    <div class="page1">
+        <center>
+            <h1 class="head">What We Do</h1>
+        </center>
+        <div class="innerbox1">
+            <center>
+                <div class="box1">
+                    <b>
+                        <h1>
+                            <div class="tick"> 🏙 </div> Accredited Company
+                        </h1>
+                    </b>
+                    <p> Sample text. Click to select the text box. Click again or double click to start editing the
+                        text.</p>
+                </div>
+                <div class="box2">
+                    <b>
+                        <h1>
+                            <div class="tick"> 💼 </div> Fully Insured
+                        </h1>
+                    </b>
+                    <h6> Sample text. Click to select the text box. Click again or double click to start editing the
+                        text.</h6>
+
+                </div>
+                <div class="box3">
+                    <b>
+                        <h1>
+                            <div class="tick"> 🧍‍♂️ </div> Locally Owned
+                        </h1>
+                    </b>
+                    <p> Sample text. Click to select the text box. Click again or double click to start editing the
+                        text.</p>
+                </div>
+                <div class="box4">
+                    <b>
+                        <h1>
+                            <div class="tick"> $ </div> Reasonable Price
+                        </h1>
+                    </b>
+                    <p> Sample text. Click to select the text box. Click again or double click to start editing the
+                        text.</p>
+
+                </div>
+
+        </div>
+        <div class="innerbox2"><br><br><br>
+            <h1> Our Services </h1>
+            <p>
+            <div class="tick"> ✔ </div> Roof Placements </p>
+            <p>
+            <div class="tick"> ✔ </div> Roof Repairs </p>
+            <p>
+            <div class="tick"> ✔ </div> New construction and sheet metal </p>
+            <p>
+            <div class="tick"> ✔ </div> Roof Layers </p>
+            <p>
+            <div class="tick"> ✔ </div> Sliding corners </p>
+            <button class="btn1"> LEARN MORE </button>
+
+        </div>
+        </center>
+    </div>
+
+    <div class="page2">
+        <center>
+            <h1>Portfolio for our Projects</h1>
+            <p class="sample">Sample text. Click to select the text box. Click again or double click to start editing
+                the text.</p>
+
+
+            <div class="imagebox">
+                <img src="./roof1.png" alt="" width="350px" ; height="250px">
+            </div>
+
+            <div class="imagebox">
+                <img src="./roof2.png" alt="" width="350px" ; height="250px">
+            </div>
+
+            <div class="imagebox">
+                <img src="./roof3.png" alt="" width="350px" ; height="250px">
+            </div>
+
+            <div class="imagebox">
+                <img src="./roof4.png" alt="" width="350px" ; height="250px">
+            </div>
+
+            <div class="imagebox">
+                <img src="./roof1.png" alt="" width="350px" ; height="250px">
+            </div>
+
+            <div class="imagebox">
+                <img src="./roof6.png" alt="" width="350px" ; height="250px">
+            </div>
+
+            <div class="imagebox">
+                <img src="./roof7.png" alt="" width="350px" ; height="250px">
+            </div>
+
+            <div class="imagebox">
+                <img src="./roof8.png" alt="" width="350px" ; height="250px">
+            </div>
+
+            <div class="imagebox">
+                <img src="./roof9.png" alt="" width="350px" ; height="250px">
+            </div>
+
+            <p> Images by <a href="" class="refr"><b>Freepik</b></a></p>
+        </center>
+    </div><br><br><br>
+    <div class="page3">
+        <div class="pageee3">
+            <div class="boxx1">
+                <center><br>
+                    <h1> Call us today for a quote!</h1>
+                    <p> Sample text. Click to select the Text Element.</p>
+                    <h1>+1 (234) 567 8910</h1>
+                    <img src="./nicepage.png" class="img" alt="" width="450px" ; height="300px">
+                    <p>Images by <a href="" class="refr"> Freepik </a></p>
+                </center>
+            </div>
+            <div class="boxx2">
+                <center><br>
+                    <h1>Contact Us</h1>
+                    <input class="namebox" type="text" placeholder="Enter your Name" name="" id="">
+                    <input class="namebox" type="text" placeholder="Enter a valid email address" name=""
+                        id=""><br><br><br>
+                </center>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Phone<br><br>
+                <input class="namebox1" type="email" placeholder="Enter your phone number (e.g.:- +1234567890)" name=""
+                    id="">
+                <hr width="450px"><br><br><br>
+                <hr width="450px"><br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="name" type="radio" name="agree" id="">
+                <label for="">I accept the <a href=""> Terms of Service</a></label>
+                <br><br>
+                <center>
+                    <button class="button"><b>SEND MESSAGE</b></button>
+                </center><br>
+
+            </div>
+        </div>
+        <hr style="width: 100%; position: relative; top: 10px;">
+         
+
+        <div class="boxxx1">
+            <h1>⋏⋏ ROOFING</h1>
+            <p>Comprehensive roofing solutions for commercial, industrial, and residential needs, including
+                replacements, repairs, new installations, and preventative maintenance.</p>
+        </div>
+        <div class="boxxx2">
+            <h2>Contact Info:</h2>
+            <p> 📍 456 Elm St, Los Angeles, CA 90001, United States</p>
+            <p> ✉ <a href="" class="ref">roofing@support.com</a></p>
+            <p> 📞 +1 (234) 567-8910</p>
+        </div>
+        <div class="boxxx3">
+            <h2>Links</h2>
+            <p><a href="" class="ref">About Us</a></p>
+            <p><a href="" class="ref">Our Services</a></p>
+            <p><a href="" class="ref">Blog</a></p>
+            <p><a href="" class="ref">Testimonials</a></p>
+            <p><a href="" class="ref">Areas we served</a></p>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
