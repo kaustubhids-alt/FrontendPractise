@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            padding: 0px;
+            margin: 0px;
+            font-family: "Outfit", sans-serif;
+            font-optical-sizing: auto;
+
+        }
+
+        .sec1 {
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .sec1innerBox1 {
+            width: 50%;
+            height: auto;
+            padding: 0px 0px 0px 200px;
+            box-sizing: border-box;
+        }
+
+        .sec1innerBox2 {
+            width: 50%;
+            height: auto;
+        }
+
+        .sec1innerBox1 h1 {
+            font-size: 60px;
+        }
+
+        .sec1innerBox1 {
+            width: 100%;
+        }
+
+        .sec1innerBox2 {
+            width: 100%;
+            padding: 0px 150px 0px 100px;
+            box-sizing: border-box;
+
+        }
+
+        .secPara {
+            color: gray;
+        }
+
+        .pra2 {
+            font-size: 20px;
+        }
+
+        .iconPara span {
+            font-size: 25px;
+            color: rgb(82, 82, 82);
+        }
+
+        .circle {
+            width: 100%;
+            height: 500px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .circle i {
+            color: #2DCC69;
+            font-size: 350px;
+        }
+
+        .number a {
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+        }
+
+        .number a:hover {
+            color: #2DCC69;
+        }
+
+        .sec2 {
+            width: 100%;
+            height: auto;
+            padding: 50px;
+            box-sizing: border-box;
+            background-color: #2DCC69;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .Contactbtn {
+            padding: 20px 50px;
+            background-color: aliceblue;
+            color: black;
+            border-radius: 30px;
+            width: 300px;
+            font-size: 25px;
+            border: none;
+        }
+
+        .Contactbtn:hover {
+            background-color: black;
+            color: aliceblue;
+            border-radius: 30px;
+            width: 300px;
+            font-size: 25px;
+            border: none
+        }
+
+        .sec2 h1 {
+            font-size: 40px;
+            color: white;
+        }
+
+        .sec3 {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .sec3 h1 {
+            font-size: 60px;
+            text-align: center;
+        }
+
+        .sec4 {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .sec4InnerBox {
+            width: 350px;
+            height: 500px;
+            background-color: #F2F2F2;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .sec4ChildBox1 {
+            width: 100%;
+            height: 250px;
+            background-color: #F2F2F2;
+            justify-content: center;
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .boldtext {
+            font-size: 40px;
+        }
+
+        .sec4ChildBox2 {
+            width: 100%;
+            height: 250px;
+            background-color: white;
+            justify-content: center;
+            text-align: center;
+            font-size: 20px;
+        }
+
+        .greenbtn {
+            width: 230px;
+            height: 50px;
+            padding: 10px 10px;
+            background-color: #2DCC69;
+            border: none;
+            border-radius: 30px;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .sec5{
+            width: 100%;
+            height: 200vh;
+            background-color: #F2F2F2;
+            display: flex;
+        }
+        .sec5innerBox{
+        background-color: white;
+        border-radius: 25px;
+        width: 360px;
+        height: 500px;
+        float: left;
+        margin: 27px;
+        color: black;
+        font-size: 27px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+        font-weight: lighter;
+       }
+       .imagebox{
+        width: 280px;
+        height: 280px;
+        margin: 13px;
+        border-radius: 50%;
+       }
+
+        @media screen and (min-width: 1000px) and (max-width: 1400px) {
+            .sec3 h1 {
+            font-size: 50px;
+            text-align: center;
+        }
+        }
+
+        @media screen and (min-width: 700px) and (max-width: 1000px) {
+
+            .sec1 {
+                flex-direction: column;
+            }
+
+            .sec1innerBox1 {
+                padding: 0px 200px 0px 200px;
+
+            }
+
+            .sec1innerBox2 {
+                padding: 0px 200px 0px 200px;
+
+            }
+
+            .sec2 {
+                height: auto;
+            }
+            .sec4InnerBox{
+                width: 100%;
+            }
+            .sec4{
+                flex-direction: column;
+            }
+            .sec3 h1 {
+            font-size: 40px;
+            text-align: center;
+        }
+        .sec5{
+            font-size: 40px ;
+        }
+        }
+
+        @media screen and (min-width: 500px) and (max-width: 700px) {
+
+            .sec1 {
+                flex-direction: column;
+            }
+
+            .sec1innerBox1 {
+                padding: 100px;
+
+            }
+
+            .sec1innerBox2 {
+                padding: 100px;
+
+            }
+
+            .sec2 {
+                height: auto;
+            }
+            .sec4InnerBox{
+                width: 100%;
+            }
+              .sec4{
+                flex-direction: column;
+            }
+            .sec3 h1 {
+            font-size: 30px;
+            text-align: center;
+        }
+        .sec5{
+            font-size: 30px ;
+        }
+        }
+
+        @media screen and (min-width: 300px) and (max-width: 500px) {
+
+            .sec1 {
+                flex-direction: column;
+            }
+
+            .sec1innerBox1 {
+                padding: 50px;
+
+            }
+
+            .sec1innerBox2 {
+                padding: 0px;
+
+            }
+
+            .sec2 {
+                height: auto;
+            }
+
+            .circle {
+                width: 100%;
+                height: 250px;
+            }
+
+            .circle i {
+                color: #2DCC69;
+                font-size: 250px;
+            }
+
+            .sec2 h1 {
+                font-size: 30px;
+                color: white;
+            }
+            .sec4 {
+                width: 100%;
+                height: auto;
+            }
+            .sec4InnerBox{
+                width: 100%;
+            }
+              .sec4{
+                flex-direction: column;
+            }
+
+            .sec3 h1 {
+            font-size: 25px;
+            text-align: center;
+            
+        }
+
+        .sec3{
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        .sec5{
+            font-size: 25px ;
+        }
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="sec1">
+        <div class="sec1innerBox1">
+            <h1>About Our <br> Company</h1>
+            <p class="secPara">Sample text. Click to select the text box. Click again or double click to start editing
+                the text. Image
+                from </p>
+            <p class="pra2">Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick
+                can manor
+                smart money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but
+                wishes. You day real less till dear read.</p>
+
+            <div class="iconPara">
+                <span> <i class="fa fa-caret-right" style="font-size:24px;color:#2DCC69"></i> Support via E-mail and
+                    Phone</span>
+                <br>
+                <span> <i class="fa fa-caret-right" style="font-size:24px;color:#2DCC69"></i> Support via E-mail and
+                    Phone</span><br><br>
+                <span class="number"> <i class="fa fa-phone" style="font-size:24px;color:#2DCC69"></i><a
+                        href="tel:+91-9145994506">
+                        +91-9145994506</a></span>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div class="sec1innerBox2">
+            <div class="circle">
+                <i class="fa fa-user-circle-o"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="sec2">
+        <h1>Do you need professionals for your next construction project?</h1>
+        <br>
+        <button class="Contactbtn">Contact us</button>
+    </div>
+
+    <div class="sec3">
+        <h1>Small Pricing Plan For Your Creative Business</h1><br><br>
+
+    </div>
+
+    <div class="sec4">
+        <div class="sec4InnerBox"><br>
+            <div class="sec4ChildBox1">
+                📍<br>
+                FOR TEAM<br><br>
+                <b class="boldtext">$59</b> <span style="font-weight: lighter; font-size: 20px;"> Per Month</span>
+                
+            </div>
+            <div class="sec4ChildBox2">
+                <div style="width: 200px; margin: auto; height: auto;  text-align: left;">
+                <ul>
+                <li type="square">15 Users</li>
+                <li type="square">Feature 2</li>
+                <li type="square">Feature 3</li>
+                <li type="square">Feature 4</li>
+                </ul>
+               </div>
+                <button class="greenbtn">UPLOAD FREE</button>
+            </div>
+        </div>
+        <div class="sec4InnerBox"><br>
+            <div class="sec4ChildBox1">
+                ⭐<br>
+                PERSONAL<br><br>
+                 <b class="boldtext">$59</b> <span style="font-weight: lighter; font-size: 20px;"> Per Month</span>
+                
+            </div>
+            <div class="sec4ChildBox2">
+               <div style="width: 200px; margin: auto; height: auto;  text-align: left;">
+                 <ul>
+                <li type="square">15 Users</li>
+                <li type="square">Feature 2</li>
+                <li type="square">Feature 3</li>
+                <li type="square">Feature 4</li>
+                </ul>
+               </div>
+                <button class="greenbtn">PROCEED ANNUALLY</button>
+            </div>
+        </div>
+
+        <div class="sec4InnerBox"><br>
+            <div class="sec4ChildBox1">
+                <br>
+                BUSINESS<br><br>
+                 <b class="boldtext">$59</b> <span style="font-weight: lighter; font-size: 20px;"> Per Month</span>
+            </div>
+            <div class="sec4ChildBox2">
+                <div style="width: 200px; margin: auto; height: auto;  text-align: left;">
+                <ul>
+                <li type="square">15 Users</li>
+                <li type="square">Feature 2</li>
+                <li type="square">Feature 3</li>
+                <li type="square">Feature 4</li>
+                </ul>
+               </div>
+                <button class="greenbtn">PROCEED ANNUALLY</button>
+            </div>
+        </div>
+    </div>
+    <div class="sec5">
+        <div class="sec5innerBox">
+                    <img src="./nicole.jpeg" class="imagebox">
+                    <b>NICOLE STONE</b>
+                   <p> <i>Lead Designer</i></p>
+                   <i class="fa fa-instagram" aria-hidden="true"></i>
+
+                </div>
+
+        <div class="sec5innerBox">
+                    <img src="./mike.jpeg" class="imagebox">
+                    <b>MIKE PERRY</b>
+                   <p> <i>Senior Developer</i></p>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+
+                </div>
+
+                <div class="sec5innerBox">
+                    <img src="./natasha.jpeg" class="imagebox">
+                    <b>NATASHA IVANOVA</b>
+                   <p> <i>Photographer</i></p>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+
+                </div>
+
+                <div class="sec5innerBox">
+                    <img src="./steve.jpg" class="imagebox">
+                    <b>STEVE HUDSON</b>
+                   <p> <i>SEO</i></p>
+                   <i class="fa fa-instagram" aria-hidden="true"></i>
+
+                </div>
+                
+                <div class="sec5innerBox">
+                    <img src="./mary.jpg" class="imagebox">
+                    <b>MARY LARSON</b>
+                   <p> <i>Lead Designer</i></p>
+                   <i class="fa fa-instagram" aria-hidden="true"></i>
+
+                </div>
+
+                <div class="sec5innerBox">
+                    <br>
+                   <p> <i>While we were not the first home cleaning company in the UK, we take pride in being market leaders in introducing an instant online booking system plus the facility for our customers to login and control their cleaning service 24/7, 365 days a year putting you in complete control. </i></p>
+
+                </div>
+                <br><br>
+    </div>
+    
+    <div class="sec6">
+
+    </div>
+   
+</body>
+
+</html>
