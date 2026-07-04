@@ -9,344 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        body {
-            padding: 0px;
-            margin: 0px;
-            font-family: "Outfit", sans-serif;
-            font-optical-sizing: auto;
-
-        }
-
-        .sec1 {
-            width: 100%;
-            height: auto;
-            display: flex;
-            flex-direction: row;
-        }
-
-        .sec1innerBox1 {
-            width: 50%;
-            height: auto;
-            padding: 0px 0px 0px 200px;
-            box-sizing: border-box;
-        }
-
-        .sec1innerBox2 {
-            width: 50%;
-            height: auto;
-        }
-
-        .sec1innerBox1 h1 {
-            font-size: 60px;
-        }
-
-        .sec1innerBox1 {
-            width: 100%;
-        }
-
-        .sec1innerBox2 {
-            width: 100%;
-            padding: 0px 150px 0px 100px;
-            box-sizing: border-box;
-
-        }
-
-        .secPara {
-            color: gray;
-        }
-
-        .pra2 {
-            font-size: 20px;
-        }
-
-        .iconPara span {
-            font-size: 25px;
-            color: rgb(82, 82, 82);
-        }
-
-        .circle {
-            width: 100%;
-            height: 500px;
-            border-radius: 50%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .circle i {
-            color: #2DCC69;
-            font-size: 350px;
-        }
-
-        .number a {
-            text-decoration: none;
-            color: black;
-            font-weight: bolder;
-        }
-
-        .number a:hover {
-            color: #2DCC69;
-        }
-
-        .sec2 {
-            width: 100%;
-            height: auto;
-            padding: 50px;
-            box-sizing: border-box;
-            background-color: #2DCC69;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .Contactbtn {
-            padding: 20px 50px;
-            background-color: aliceblue;
-            color: black;
-            border-radius: 30px;
-            width: 300px;
-            font-size: 25px;
-            border: none;
-        }
-
-        .Contactbtn:hover {
-            background-color: black;
-            color: aliceblue;
-            border-radius: 30px;
-            width: 300px;
-            font-size: 25px;
-            border: none
-        }
-
-        .sec2 h1 {
-            font-size: 40px;
-            color: white;
-        }
-
-        .sec3 {
-            width: 100%;
-            height: auto;
-            display: flex;
-            justify-content: center;
-        }
-
-        .sec3 h1 {
-            font-size: 60px;
-            text-align: center;
-        }
-
-        .sec4 {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-
-        .sec4InnerBox {
-            width: 350px;
-            height: 500px;
-            background-color: #F2F2F2;
-            display: flex;
-            flex-direction: column;
-        }
-
-        .sec4ChildBox1 {
-            width: 100%;
-            height: 250px;
-            background-color: #F2F2F2;
-            justify-content: center;
-            text-align: center;
-            font-size: 30px;
-        }
-
-        .boldtext {
-            font-size: 40px;
-        }
-
-        .sec4ChildBox2 {
-            width: 100%;
-            height: 250px;
-            background-color: white;
-            justify-content: center;
-            text-align: center;
-            font-size: 20px;
-        }
-
-        .greenbtn {
-            width: 230px;
-            height: 50px;
-            padding: 10px 10px;
-            background-color: #2DCC69;
-            border: none;
-            border-radius: 30px;
-            color: white;
-            font-weight: bold;
-            font-size: 16px;
-        }
-
-        .sec5{
-            width: 100%;
-            height: 200vh;
-            background-color: #F2F2F2;
-            display: flex;
-        }
-        .sec5innerBox{
-        background-color: white;
-        border-radius: 25px;
-        width: 360px;
-        height: 500px;
-        float: left;
-        margin: 27px;
-        color: black;
-        font-size: 27px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        text-align: center;
-        font-weight: lighter;
-       }
-       .imagebox{
-        width: 280px;
-        height: 280px;
-        margin: 13px;
-        border-radius: 50%;
-       }
-
-        @media screen and (min-width: 1000px) and (max-width: 1400px) {
-            .sec3 h1 {
-            font-size: 50px;
-            text-align: center;
-        }
-        }
-
-        @media screen and (min-width: 700px) and (max-width: 1000px) {
-
-            .sec1 {
-                flex-direction: column;
-            }
-
-            .sec1innerBox1 {
-                padding: 0px 200px 0px 200px;
-
-            }
-
-            .sec1innerBox2 {
-                padding: 0px 200px 0px 200px;
-
-            }
-
-            .sec2 {
-                height: auto;
-            }
-            .sec4InnerBox{
-                width: 100%;
-            }
-            .sec4{
-                flex-direction: column;
-            }
-            .sec3 h1 {
-            font-size: 40px;
-            text-align: center;
-        }
-        .sec5{
-            font-size: 40px ;
-        }
-        }
-
-        @media screen and (min-width: 500px) and (max-width: 700px) {
-
-            .sec1 {
-                flex-direction: column;
-            }
-
-            .sec1innerBox1 {
-                padding: 100px;
-
-            }
-
-            .sec1innerBox2 {
-                padding: 100px;
-
-            }
-
-            .sec2 {
-                height: auto;
-            }
-            .sec4InnerBox{
-                width: 100%;
-            }
-              .sec4{
-                flex-direction: column;
-            }
-            .sec3 h1 {
-            font-size: 30px;
-            text-align: center;
-        }
-        .sec5{
-            font-size: 30px ;
-        }
-        }
-
-        @media screen and (min-width: 300px) and (max-width: 500px) {
-
-            .sec1 {
-                flex-direction: column;
-            }
-
-            .sec1innerBox1 {
-                padding: 50px;
-
-            }
-
-            .sec1innerBox2 {
-                padding: 0px;
-
-            }
-
-            .sec2 {
-                height: auto;
-            }
-
-            .circle {
-                width: 100%;
-                height: 250px;
-            }
-
-            .circle i {
-                color: #2DCC69;
-                font-size: 250px;
-            }
-
-            .sec2 h1 {
-                font-size: 30px;
-                color: white;
-            }
-            .sec4 {
-                width: 100%;
-                height: auto;
-            }
-            .sec4InnerBox{
-                width: 100%;
-            }
-              .sec4{
-                flex-direction: column;
-            }
-
-            .sec3 h1 {
-            font-size: 25px;
-            text-align: center;
-            
-        }
-
-        .sec3{
-            padding: 30px;
-            box-sizing: border-box;
-        }
-        .sec5{
-            font-size: 25px ;
-        }
-        }
-        
-    </style>
+    <link rel="stylesheet" href="./nicepageStyle.css">
 </head>
 
 <body>
@@ -401,17 +64,17 @@
                 📍<br>
                 FOR TEAM<br><br>
                 <b class="boldtext">$59</b> <span style="font-weight: lighter; font-size: 20px;"> Per Month</span>
-                
+
             </div>
             <div class="sec4ChildBox2">
                 <div style="width: 200px; margin: auto; height: auto;  text-align: left;">
-                <ul>
-                <li type="square">15 Users</li>
-                <li type="square">Feature 2</li>
-                <li type="square">Feature 3</li>
-                <li type="square">Feature 4</li>
-                </ul>
-               </div>
+                    <ul>
+                        <li type="square">15 Users</li>
+                        <li type="square">Feature 2</li>
+                        <li type="square">Feature 3</li>
+                        <li type="square">Feature 4</li>
+                    </ul>
+                </div>
                 <button class="greenbtn">UPLOAD FREE</button>
             </div>
         </div>
@@ -419,18 +82,18 @@
             <div class="sec4ChildBox1">
                 ⭐<br>
                 PERSONAL<br><br>
-                 <b class="boldtext">$59</b> <span style="font-weight: lighter; font-size: 20px;"> Per Month</span>
-                
+                <b class="boldtext">$59</b> <span style="font-weight: lighter; font-size: 20px;"> Per Month</span>
+
             </div>
             <div class="sec4ChildBox2">
-               <div style="width: 200px; margin: auto; height: auto;  text-align: left;">
-                 <ul>
-                <li type="square">15 Users</li>
-                <li type="square">Feature 2</li>
-                <li type="square">Feature 3</li>
-                <li type="square">Feature 4</li>
-                </ul>
-               </div>
+                <div style="width: 200px; margin: auto; height: auto;  text-align: left;">
+                    <ul>
+                        <li type="square">15 Users</li>
+                        <li type="square">Feature 2</li>
+                        <li type="square">Feature 3</li>
+                        <li type="square">Feature 4</li>
+                    </ul>
+                </div>
                 <button class="greenbtn">PROCEED ANNUALLY</button>
             </div>
         </div>
@@ -439,74 +102,200 @@
             <div class="sec4ChildBox1">
                 <br>
                 BUSINESS<br><br>
-                 <b class="boldtext">$59</b> <span style="font-weight: lighter; font-size: 20px;"> Per Month</span>
+                <b class="boldtext">$59</b> <span style="font-weight: lighter; font-size: 20px;"> Per Month</span>
             </div>
             <div class="sec4ChildBox2">
                 <div style="width: 200px; margin: auto; height: auto;  text-align: left;">
-                <ul>
-                <li type="square">15 Users</li>
-                <li type="square">Feature 2</li>
-                <li type="square">Feature 3</li>
-                <li type="square">Feature 4</li>
-                </ul>
-               </div>
+                    <ul>
+                        <li type="square">15 Users</li>
+                        <li type="square">Feature 2</li>
+                        <li type="square">Feature 3</li>
+                        <li type="square">Feature 4</li>
+                    </ul>
+                </div>
                 <button class="greenbtn">PROCEED ANNUALLY</button>
             </div>
         </div>
     </div>
     <div class="sec5">
-        <div class="sec5innerBox">
-                    <img src="./nicole.jpeg" class="imagebox">
-                    <b>NICOLE STONE</b>
-                   <p> <i>Lead Designer</i></p>
-                   <i class="fa fa-instagram" aria-hidden="true"></i>
-
-                </div>
 
         <div class="sec5innerBox">
-                    <img src="./mike.jpeg" class="imagebox">
-                    <b>MIKE PERRY</b>
-                   <p> <i>Senior Developer</i></p>
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
+            <div class="imageCircle1 imgBox"></div>
+            <b>NICOLE STONE</b>
+            <p> <i>Lead Designer</i></p>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
 
-                </div>
+        </div>
 
-                <div class="sec5innerBox">
-                    <img src="./natasha.jpeg" class="imagebox">
-                    <b>NATASHA IVANOVA</b>
-                   <p> <i>Photographer</i></p>
-                    <i class="fa fa-instagram" aria-hidden="true"></i>
+        <div class="sec5innerBox">
+            <div class="imageCircle2 imgBox"></div>
+            <b>MIKE PERRY</b>
+            <p> <i>Senior Developer</i></p>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
 
-                </div>
+        </div>
 
-                <div class="sec5innerBox">
-                    <img src="./steve.jpg" class="imagebox">
-                    <b>STEVE HUDSON</b>
-                   <p> <i>SEO</i></p>
-                   <i class="fa fa-instagram" aria-hidden="true"></i>
+        <div class="sec5innerBox">
+            <div class="imageCircle3 imgBox"></div>
+            <b>NATASHA IVANOVA</b>
+            <p> <i>Photographer</i></p>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
 
-                </div>
-                
-                <div class="sec5innerBox">
-                    <img src="./mary.jpg" class="imagebox">
-                    <b>MARY LARSON</b>
-                   <p> <i>Lead Designer</i></p>
-                   <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
 
-                </div>
+        <div class="sec5innerBox">
+            <div class="imageCircle4 imgBox"></div>
+            <b>STEVE HUDSON</b>
+            <p> <i>SEO</i></p>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
 
-                <div class="sec5innerBox">
-                    <br>
-                   <p> <i>While we were not the first home cleaning company in the UK, we take pride in being market leaders in introducing an instant online booking system plus the facility for our customers to login and control their cleaning service 24/7, 365 days a year putting you in complete control. </i></p>
+        </div>
 
-                </div>
-                <br><br>
+        <div class="sec5innerBox">
+            <div class="imageCircle5 imgBox"></div>
+            <b>MARY LARSON</b>
+            <p> <i>Lead Designer</i></p>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+
+        </div>
+
+        <div class="sec5innerBox sec5innerBoxContent">
+            <p> <i class="skewText">While we were not the first home cleaning company in the UK, we take pride in being
+                    market leaders in
+                    introducing an instant online booking system plus the facility for our customers to login and
+                    control their cleaning service 24/7, 365 days a year putting you in complete control. </i></p>
+
+        </div>
     </div>
-    
+
+    <div class="sec6heading">
+
+        <button class="btn">MORE</button><br><br>
+        Our Way<br>
+    </div>
     <div class="sec6">
+        <div class="sec6innerBox">
+            <h1><b>2020</b><br>
+                🟩</h1>
+            <p class="text">Podcasting operational change management inside of workflows to establish a framework.
+                Taking seamless key performance indicators offline to maximise the long tail.</p>
+
+        </div>
+
+        <div class="sec6innerBox">
+
+            <h1><b>2021</b><br>
+                🟩</h1>
+            <p class="text">Podcasting operational change management inside of workflows to establish a framework.
+                Taking seamless key performance indicators offline to maximise the long tail.</p>
+
+        </div>
+
+        <div class="sec6innerBox">
+            <h1><b>2022</b><br>
+                🟩</h1>
+            <p class="text">Podcasting operational change management inside of workflows to establish a framework.
+                Taking seamless key performance indicators offline to maximise the long tail.</p>
+
+        </div>
+    </div>
+
+
+    <div class="container7">
+        <div class="container7Box1">
+            <div class="imgCircle"></div>
+
+        </div>
+        <div class="container7Box2">
+            <h1>NICK PERRY</h1>
+            <h3>developer</h3>
+            Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart
+            money hopes worth too. Comfort produce husband boy her had hearing.
+            <p></p>
+        </div>
+        <div class="container7Box3">
+            <button class="readbtn">READ MORE</button>
+        </div>
+    </div>
+
+
+    <div class="container8">
+        <div class="container8box1">
+            <div class="Container8imgCircle"></div>
+        </div>
+        <div class="container8box2">
+            <h1>LINDA HUDSON</h1>
+            <h3>designer</h3>
+            Considered use dispatched melancholy sympathize discretion led. 
+            Oh feel if up to till like.He an thing rapid these after going drawn or. Timed she his law the spoil round defer.
+            <p></p>
+        </div>
+        <div class="container8box3">
+            <button class="readbtn">READ MORE</button>
+        </div>
+    </div>
+
+    <div class="section9header">
+        <h1>We partner with the world's <br>leading universities</h1>
+        <button class="greenbutton">01. Create a Webinar in Minutes</button>
+    </div>
+    <div class="section9">
+        Interdum velit euismod in pellentesque massa placerat duis. Tristique et egestas quis ipsum suspendisse ultrices gravida dictum fusce. Nibh nisl condimentum.
+        <ul>
+            <li>Mattis nunc sed blandit libero volutpat.</li>
+            <li>Tortor at risus viverra adipiscing at in tellus.</li>
+            <li>Purus ut faucibus pulvinar elementum.</li>
+            <li>Blandit turpis cursus in hac habitasse.</li>
+        </ul>
+        <button class="whitebtn">02. Business Sustainability Management </button>
+        <button class="whitebtn">03. Learn how to grow your Business </button>
+        <button class="whitebtn">04. Practical tips to help you price your products </button>
 
     </div>
-   
+
+    <div class="section10">
+        <div class="sec10box">
+            <div class="sec10container1">
+                <i style="color: #2DCC69;" class="fa fa-mobile" aria-hidden="true"></i>
+            </div>
+            <div class="sec10container2">
+                <h1>Contact Us Today!</h1><br>
+                CALL US TODAY ON +1 777 000 0000 OR <a href="" class="ref">EMAIL US</a>
+            </div>
+            <div class="sec10container3">
+                <button class="greenbtn">BOOK A CONSULTATION</button>
+            </div>
+        </div>
+    </div>
+    <div class="lastsection">
+        <div class="lastsec1">
+            <h1>Contact Us</h1>
+
+            <div class="inputbox">
+                <div class="email">
+                <input class="input" type="email" placeholder="Enter a valid email adress" name="" id="">
+               </div>
+               <div class="name">
+                <input class="input" type="text" placeholder="Enter your Name" name="" id="">
+                </div>
+                </div>
+
+                <h3>Phone</h3>
+                <input class="inp123" type="tel" placeholder="Enter your Phone Number" name="" id=""><br><br>
+                <h3>Message</h3>
+                <input class="msg" type="text" placeholder="" name="" id=""><br><br>
+                <button class="greenbtn">SUBMIT</button>
+
+        </div>
+        <div class="lastsec2">
+            <i style="color: black; font-size: 200px;" class="fa fa-mobile" aria-hidden="true"></i><br>
+            <h1> 1 (234) 567-891</h1>
+            <h1> 1 (234) 987-654 </h1>
+
+        </div>
+    </div>
+
+
 </body>
 
 </html>
